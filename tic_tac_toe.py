@@ -31,7 +31,7 @@ def win_check():
     if F[0][1] == 'O' and F[1][1] == 'O' and F[2][1] == 'O': return 'win O'
     if F[0][2] == 'O' and F[1][2] == 'O' and F[2][2] == 'O': return 'win O'
     if F[0][0] == 'O' and F[1][1] == 'O' and F[2][2] == 'O': return 'win O'
-    if F[02[0] == 'O' and F[1][1] == 'O' and F[0][2] == 'O': return 'win O'
+    if F[2][0] == 'O' and F[1][1] == 'O' and F[0][2] == 'O': return 'win O'
 
 
 
